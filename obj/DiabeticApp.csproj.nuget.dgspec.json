@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\werka\\OneDrive\\Pulpit\\SEM5\\TOwAM projekcik\\DiabeticApp\\DiabeticApp\\DiabeticApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\werka\\OneDrive\\Pulpit\\SEM5\\TOwAM projekcik\\DiabeticApp\\DiabeticApp\\DiabeticApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\werka\\OneDrive\\Pulpit\\SEM5\\TOwAM projekcik\\DiabeticApp\\DiabeticApp\\DiabeticApp.csproj",
+        "projectName": "DiabeticApp",
+        "projectPath": "C:\\Users\\werka\\OneDrive\\Pulpit\\SEM5\\TOwAM projekcik\\DiabeticApp\\DiabeticApp\\DiabeticApp.csproj",
+        "packagesPath": "C:\\Users\\werka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\werka\\OneDrive\\Pulpit\\SEM5\\TOwAM projekcik\\DiabeticApp\\DiabeticApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\werka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[22.2.3, )"
+            },
+            "DevExpress.Xpo": {
+              "target": "Package",
+              "version": "[22.2.3, )"
+            },
+            "LiveCharts.Wpf.NetCore3": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

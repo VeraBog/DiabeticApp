@@ -1,0 +1,51 @@
+﻿<Window x:Class="DiabeticApp.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiabeticApp"
+        mc:Ignorable="d"
+        Title="Register" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF9F9F9" Offset="0.295"/>
+                <GradientStop Color="#FF898C90" Offset="0.899"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="250"/>
+        </Grid.RowDefinitions>
+
+        <Label FontWeight="Bold" Content="Witaj Użytkowniku" HorizontalAlignment="Center" Height="39" Margin="0,10,0,0" VerticalAlignment="Top" Width="246" FontSize="20"/>
+        <Image Margin="400,45,33,90" Source="/serceCukier.jpg" Grid.RowSpan="2"/>
+
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Height="32" Margin="93,41,0,0" VerticalAlignment="Top" Width="219" Grid.Row="1" Background="#FFFDFDFD" BorderThickness="1,1,1,1">
+            <PasswordBox.Effect>
+                <DropShadowEffect/>
+            </PasswordBox.Effect>
+        </PasswordBox>
+
+
+        <Label FontWeight="Bold" FontSize="20" Content="Wpisz Hasło" HorizontalAlignment="Left" Height="34" Margin="93,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="238"/>
+        <Label FontWeight="Bold" FontSize="20" Content="Wpisz Login" HorizontalAlignment="Left" Height="46" Margin="93,94,0,0" VerticalAlignment="Top" Width="238"/>
+        <Button x:Name="Register_button" Click="Register_button_Click"  FontWeight="Bold" Content="Zarejestruj" HorizontalAlignment="Left" Height="40" Margin="93,142,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157"  Background="#FFF7F2F2" Foreground="Black" Cursor="Hand">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBox x:Name="Username" HorizontalAlignment="Left" Height="37" Margin="93,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Background="White" BorderThickness="1,1,1,1">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button x:Name="Register_back" Click="Register_back_Click"  FontWeight="Bold" Content="Cofnij" HorizontalAlignment="Left" Height="40" Margin="255,142,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157"  Background="#FFF7F2F2" Foreground="Black" Cursor="Hand">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+
+    </Grid>
+</Window>
